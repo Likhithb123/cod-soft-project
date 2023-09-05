@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>B Likhith</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />.
+    
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact-form">Contact me</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+    
+    
+    
+    <section id="home" class="home-div">
+        <div id="details">
+            <h1>BOOLA <br>LIKHITH</h1>
+            <p><b>Hello,</b> With a passion for design and a knack for coding, I am a hybrid professional - a graphic designer and web developer, dedicated to bringing captivating visuals and intuitive user experiences to the digital realm.</p>
+                <a class="btn" href="MyREsume.pdf" download>Download CV</a>
+        </div>
+        <div id="image">
+            <img src="img1 (2).JPG" alt="error">
+        </div>
+    </section>
+    <section id="about">
+        <h1>About Me</h1>
+        <div id="about-section">
+            <div id="details1" class="box">
+                <p>Basically , my fervent passion for web development, video editing, and graphic design. Through meticulous coding, I bring functional and visually captivating websites to life. Video editing allows me to weave stories using raw footage, while graphic design lets me craft visually striking and meaningful visuals. These skills collectively define my journey of creative exploration and technical mastery. </p>
+            </div>
+            <div id="experience">
+                <div id="semi-heading">
+                    <p onclick="showDetails('education')">Education</p>
+                    <p onclick="showDetails('skills')">Skills</p>
+                    <p onclick="showDetails('experience-details')">Experience</p>
+                </div>
+                <div id="my-details">
+                    <div id="education" style="display: block;">
+                        <ul>
+                            <li>
+                                <p id="year">2021-Current</p>
+                                <p>Indian Institute of Engineering Science and Technology, Shibpur</p>
+                            </li>
+                            <li>
+                                <p id="year">2019-2021</p>                       
+                                <p>Aditya Junior College, Kakinada</p>
+                            </li>
+                            <li>
+                                <p id="year">2018-2019</p>                       
+                                <p>Aditya E.M High School, Amalapuram</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="skills">
+                        <ul>
+                            <li>
+                                <p id="year">Video Editing</p>
+                                <p>Da Vinci . Adobe Pro</p>
+                            </li>
+                            <li>
+                                <p id="year">Web Development</p>                       
+                                <p>Web Development and Designing</p>
+                            </li>
+                            <li>
+                                <p id="year">Graphic Design</p>                       
+                                <p>UI/UX Designing</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="experience-details">
+                        <li>
+                            <p id="year">Oasis Infobyte</p>                       
+                            <p>Interning Graphic Designing</p>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <h1>My Projects</h1>
+        <div class="projects" id="divs">
+            
+            <a href="https://likhithb123.github.io/landing-page/" style="text-decoration: none;" target="_blank">
+                <div class="project1" id="divs" style="background-image: url(val.jpg);">
+                    <h3>Gaming Page</h3>
+                    <div class="textcontent" style="color: rgb(252, 252, 252);">
+                        Created a gaming page to play and to watch the gameplay too.
+                    </div>
+                </div>
+            </a>
+            <a href="https://likhithb123.github.io/calci/" style="text-decoration: none;" target="_blank">
+                <div class="project1" id="divs"  style="background-image: url(cal.jpg);">
+                    <h3 style="color: rgb(246, 240, 240);">Calculator</h3>
+                    <div class="textcontent" style="padding: 10px;"> 
+                        Created an intuitive and functional calculator project with a sleek user interface, providing users with a seamless experience for performing various mathematical operations. Utilized HTML, CSS, and JavaScript to implement the calculator's functionalities and enhance user engagement.
+                    </div>           
+                </div>
+            </a>
+            <a href="https://likhithb123.github.io/to-do-list-project/" style="text-decoration: none;" target="_blank">
+                <div class="project1" id="divs" style="background-image: url(to\ do.avif);">
+                    <h3>To-do List</h3>
+                    <div class="textcontent"  style="color: black;">
+                        Made a friendly task Manager project to list the works to do. The work We have to do will be displayed in Red color and once it was done , by clicking on it it turns green.
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+    <section id="contact-form">
+        <h1>Contact</h1>
+        <div id="contact">
+            <div class="contact-us">
+                <form action="mailto:likhith.b.587@gmail.com">
+                    <label for="email"> Email</label><br>
+                    <input type="email" name="email" id="email" required><br>
+                    <label for="message"></label><br>
+                    <textarea name="message" id="text-message" width="100%" rows="10" placeholder="Your Message" required></textarea><br>
+                    <div class="btn1">
+                        <button type="button" onclick="submitForm()">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="follow-us">
+                <div id="contact-info">
+                    <h2>Mail :</h2>
+                    <a href="likhith.b.587@gmail.com">likhith.b.587@gmail.com</a>
+                    <h2 style="margin-top: 10px;">Address:</h2>
+                    <a href="https://www.google.com/maps/place/Amalapuram,+Andhra+Pradesh/@16.5738373,81.9713534,13z/data=!3m1!4b1!4m6!3m5!1s0x3a37ef83f9204c7d:0x5f9453f5c41b161e!8m2!3d16.5774798!4d82.0031455!16zL20vMGJfcWto?authuser=0&entry=ttu">Amalapuram, AndhraPradesh</a>
+                </div>
+                <h2 style="margin-top: 10px;">Follow on :</h2>
+                <div class="icons">
+                    <div id="icon" class="icon-facebook">
+                        <a href="https://www.facebook.com/likhith.b" target="_blank">
+                            <i class="fab fa-facebook" id="facebook"></i>
+                        </a>
+                    </div>
+                    <div id="icon">
+                        <a href="https://www.linkedin.com/in/likhith-boola-74137b239/" target="_blank">
+                            <i class="fab fa-linkedin" id="linkedin"></i>
+                        </a>
+                    </div>
+                    <div id="icon">
+                        <a href="https://twitter.com/BoolaLikhith" target="_blank">
+                            <i class="fab fa-twitter" id="twitter"></i>
+                        </a>
+                    </div>
+                    <div id="icon">
+                        <a href="https://www.instagram.com/iam_likhith_b/" target="_blank">
+                            <i class="fab fa-instagram" id="instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $(".project1").hover(
+      function () {
+        $(this).find(".textcontent").css("bottom", "0"); 
+      },
+      function () {
+        $(this).find(".textcontent").css("bottom", "-100%");
+      }
+    );
+  });
+</script>
+    <script>
+        function showDetails(section) {
+            var detailsDivs = document.querySelectorAll("#my-details > div");
+            detailsDivs.forEach(function(div) {
+                div.style.display = "none";
+            });
+
+            document.getElementById(section).style.display = "block";
+        }
+        function submitForm(){
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('text-message').value;
+            var subject = "Contact Form Submission";
+            var mailtoLink = "mailto:chittibillichaitanya@gmail.com" + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent("Email: " + "\n\n" + "Message: " + message);
+            window.location.href = mailtoLink;
+        }
+
+const menuToggle = document.querySelector('.menu-toggle');
+const menu = document.querySelector('.menu');
+const bars = document.querySelectorAll('.bar');
+const menuLinks = document.querySelectorAll('.menu a'); 
+
+menuToggle.addEventListener('click', () => {
+    menuToggle.classList.toggle('active');
+    bars.forEach(bar => bar.classList.toggle('active'));
+    menu.classList.toggle('active');
+});
+
+menuLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        menuToggle.classList.remove('active'); 
+        bars.forEach(bar => bar.classList.remove('active')); 
+        menu.classList.remove('active'); 
+    });
+});
+
+
+    </script>
+</body>
+</html>
